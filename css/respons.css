@@ -7,6 +7,19 @@
     .conteiner{
         max-width: 870px;
     }
+    .block_title{
+        font-size: 26px;
+    }
+    .clients__block img{
+        max-width: 180px;
+        margin-right: 20px;
+    }
+    .card{
+        margin-right: 10px;
+    }
+    .column:not(:last-child){
+        margin-right: 15px;
+    }
 }
 @media (max-width: 880px){
     .conteiner{
@@ -14,6 +27,24 @@
     }
     .header__title{
         font-size: 45px;
+    }
+    .feedback__block{
+        padding-left: 20px;
+    }
+    .benefits__text{
+        padding-top: 20px;
+    }
+    .benefits__text-title{
+        margin-bottom: 14px;
+    }
+    .benefits__text-description{
+        font-size: 14px;
+    }
+    .solutions__title{
+        font-size: 18px;
+    }
+    .solutions__text{
+        font-size: 14px;
     }
 }
 @media (max-width: 768px){
@@ -29,6 +60,15 @@
     .header__menu{
         margin-left: 10px;
     }
+    .block-content_1{
+        padding-left: 10px;
+    }
+    .block-content_2{
+        padding-left: 10px;
+    }
+    .request_a_call input:not(:last-child){
+        margin-right: 25px;
+    }
 }
 @media (max-width: 670px){
     .conteiner{
@@ -37,6 +77,89 @@
     .header__title{
         margin-top: 30%;
     }
+    .block-content_1{
+        width: 49%;
+    }
+    .block-content_2{
+        width: 49%;
+    }
+    .benefits__text{
+        padding: 0 0 10px 15px;
+    }
+    .benefits__img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .products__navbar{
+        margin-bottom: 50px;
+    }
+    .clients__block img{
+        max-width: 120px;
+        margin-right: 20px;
+    }
+    .veito_subtitle{
+        max-width: 80%;
+    }
+    .veito_subtitle{
+        margin-top: 20px;
+    }
+    .veito__content{
+        flex-direction: column;
+    }
+    .veito_block{
+        margin: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 90%;
+        margin-bottom: 25px;
+    }
+    .veito_block img{
+        width: 70px;
+        height: 70px;
+    }
+    .veito__title{
+        font-size: 16px;
+        flex: 1;
+    }
+    .veito__text{
+        margin-top: 10px;
+    }
+
+
+
+
+
+
+
+
+    .feedback{
+        margin-bottom: 50px;
+    }
+    .feedback__block{
+        width: 100%;
+    }
+    .request_a_call{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .request_a_call input{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .feedback__button{
+        margin-top: 15px;
+    }
+    .news{
+        margin-top: 100px;
+    }
+    .footer__block{
+        flex-wrap: wrap;
+    }
+
+
+
 }
 @media (max-width: 578px){
     .header__title{
