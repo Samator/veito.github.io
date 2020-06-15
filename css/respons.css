@@ -20,6 +20,15 @@
     .conteiner{
         max-width: 720px;
     }
+    .header__cart{
+        display: none;
+    }
+    .header__block-phone{
+        display: none;
+    }
+    .header__menu{
+        margin-left: 10px;
+    }
 }
 @media (max-width: 670px){
     .conteiner{
@@ -44,15 +53,6 @@
 @media (max-width: 320px){
     .conteiner{
         max-width: 95%;
-    }
-    .header__cart{
-        display: none;
-    }
-    .header__block-phone{
-        display: none;
-    }
-    .header__menu{
-        margin-left: 10px;
     }
     .header__title{
         margin-top: 20%;
