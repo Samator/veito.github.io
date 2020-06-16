@@ -1,0 +1,296 @@
+.cart{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(20, 20, 20, 0.98);
+    top: 0;
+    left: 0;
+    padding: 30px 0 0 70px;
+    display: none;
+}
+.cart__block{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 70%;
+}
+
+
+
+
+
+
+
+
+
+/*___________________________________________________БЛОК_С_ТОВАРАМИ__________________________________________________________________________*/
+.block_add-products{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 100%;
+    overflow: auto;
+}
+
+.add_product{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 15px;
+}
+.product{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    background-color: #000;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    padding: 0 21px 0 21px;
+}
+
+
+.block_product-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100px;
+}
+.block_product-img img{
+    display: block;
+    height: 90%;
+}
+.block_product-text{
+    flex: 1;
+    color: #fff;
+}
+.block_product-text-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+.block_product-text-discription {
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(255, 255, 255, 0.7);
+    width: 60%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.block_amount {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    height: 100%;
+}
+.amount {
+    margin-right: 17px;
+}
+.amount_buttons {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+}
+.amount_add {
+    display: block;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #C8A2C8;
+    color: #C8A2C8;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.amount_del {
+    display: block;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #C8A2C8;
+    color: #C8A2C8;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.block_price {
+    margin-left: 30px;
+}
+.price {
+    color: #fff;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.del_product{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+
+/*__________________________________________________ФОРМА_ЗАКАЗА_______________________________________________________________________________*/
+.block_order-form{
+    padding: 36px 57px 0 57px;
+    margin-left: 50px;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.order-form__title{
+    font-weight: 300;
+    font-size: 25px;
+    color: #fff;
+}
+.order-form__line{
+    width: 100px;
+    height: 0px;
+    border: 0.5px solid #C8A2C8;
+    box-shadow: 0px 2px 10px rgba(204, 255, 0, 0.63);
+}
+.order-form{
+    color: #fff;
+}
+.order-form label{
+    display: inline-block;
+    margin-top: 27px;
+    font-weight: 300;
+}
+.order-form input{
+    margin-top: 5px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    line-height: 25px;
+}
+.order-form button{
+    margin-top: 40px;
+    width: 100%;
+    color: #fff;
+    padding: 8px 0 8px 0;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    background-color: transparent;
+    border: 1px solid #C8A2C8;
+    box-shadow: 0px 1px 5px rgba(204, 255, 0, 0.63);
+    border-radius: 3px;
+    cursor: pointer;
+}
+/*______________________________________________________НАВИГАЦИЯ______________________________________________________________*/
+.cart__navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+.total_amount{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.total_amount span{
+    margin-left: 30px;
+}
+.back_button{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.back_button::before{
+    margin-right: 25px;
+    content: ' ';
+    width: 8px;
+    height: 32px;
+    background-image: url("../img/arrow.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+}

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/respons.css">
+    <link rel="stylesheet" href="./css/cart.css">
     <title>Veito</title>
 </head>
 <body>
@@ -12,7 +13,7 @@
         <div class="conteiner">
             <div class="header__navbar">
                 <a href="" class="header__logo"><img src="./img/logo.png" alt=""></a>
-                <div class="header__cart">
+                <div class="header__cart" id="cart">
 
                 </div>
                 <div class="header__block-phone">
@@ -70,6 +71,117 @@
                         <a href="" class="block_social_link__item"><img src="./img/social/vk.png" alt=""></a>
                         <a href="" class="block_social_link__item"><img src="./img/social/twitter.png" alt=""></a>
                         <a href="" class="block_social_link__item"><img src="./img/social/facebook.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="cart" id="cart-block">
+                <div class="cart_logo">
+                    <a href=""><img src="./img/logo.png" alt=""></a>
+                </div>
+                <div class="cart__block">
+                    <div class="block_add-products">
+                        <div class="add_product">
+                            <div class="product">
+                                <div class="block_product-img">
+                                    <img src="./img/products/min.png" alt="">
+                                </div>
+                                <div class="block_product-text">
+                                    <h6 class="block_product-text-title">Название продукта</h6>
+                                    <p class="block_product-text-discription">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet convallis erat auctor nibh pharetra ac. 
+                                    </p>
+                                </div>
+                                <div class="block_amount">
+                                    <span class="amount">0</span>
+                                    <div class="amount_buttons">
+                                        <button class="amount_add">+</button>
+                                        <button class="amount_del">-</button>
+                                    </div>
+                                </div>
+                                <div class="block_price">
+                                    <span class="price">36 000 Р</span>
+                                </div>
+                            </div>
+                            <button class="del_product" id="del-product">
+                                <span class="line_1"></span>
+                                <span class="line_2"></span>
+                            </button>
+                        </div>
+                        <div class="add_product">
+                            <div class="product">
+                                <div class="block_product-img">
+                                    <img src="./img/products/min.png" alt="">
+                                </div>
+                                <div class="block_product-text">
+                                    <h6 class="block_product-text-title">Название продукта</h6>
+                                    <p class="block_product-text-discription">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet convallis erat auctor nibh pharetra ac. 
+                                    </p>
+                                </div>
+                                <div class="block_amount">
+                                    <span class="amount">0</span>
+                                    <div class="amount_buttons">
+                                        <button class="amount_add">+</button>
+                                        <button class="amount_del">-</button>
+                                    </div>
+                                </div>
+                                <div class="block_price">
+                                    <span class="price">36 000 Р</span>
+                                </div>
+                            </div>
+                            <button class="del_product" id="del-product">
+                                <span class="line_1"></span>
+                                <span class="line_2"></span>
+                            </button>
+                        </div>
+                        <div class="add_product">
+                            <div class="product">
+                                <div class="block_product-img">
+                                    <img src="./img/products/min.png" alt="">
+                                </div>
+                                <div class="block_product-text">
+                                    <h6 class="block_product-text-title">Название продукта</h6>
+                                    <p class="block_product-text-discription">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet convallis erat auctor nibh pharetra ac. 
+                                    </p>
+                                </div>
+                                <div class="block_amount">
+                                    <span class="amount">0</span>
+                                    <div class="amount_buttons">
+                                        <button class="amount_add">+</button>
+                                        <button class="amount_del">-</button>
+                                    </div>
+                                </div>
+                                <div class="block_price">
+                                    <span class="price">36 000 Р</span>
+                                </div>
+                            </div>
+                            <button class="del_product" id="del-product">
+                                <span class="line_1"></span>
+                                <span class="line_2"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="block_order-form">
+                        <h4 class="order-form__title">Корзина</h4>
+                        <span class="order-form__line"></span>
+                        <form action="" class="order-form">
+                            <label for="name">Ваше имя:</label>
+                            <input type="text" name="name" id="">
+                            <label for="adress">Адрес:</label>
+                            <input type="text" name="adress" id="">
+                            <label for="phone">Телефон:</label>
+                            <input type="phone" name="phone" id="">
+                            <button>Оформить заказ</button>
+                        </form>
+                        
+                    </div>
+                </div>
+                <div class="cart__navbar">
+                    <button class="back_button">назад</button>
+                    <div class="total_amount">
+                        <h6>Общая сумма:</h6>
+                        <span>0</span>
                     </div>
                 </div>
             </div>
@@ -402,6 +514,7 @@
             </div>
         </div>
     </footer>
+    <script src="./js/cart.js"></script>
     <script src="./js/main.js"></script>
 </body>
 </html>

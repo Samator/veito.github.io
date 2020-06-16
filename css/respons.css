@@ -57,6 +57,9 @@
     .header__block-phone{
         display: none;
     }
+    .menu_block{
+        width: 50%;
+    }
     .header__menu{
         margin-left: 10px;
     }
@@ -165,6 +168,9 @@
     .header__title{
         margin-top: 40%;
         font-size: 35px;
+    }
+    .menu_block{
+        width: 100%;
     }
 }
 @media (max-width: 480px){

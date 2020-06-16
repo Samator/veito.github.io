@@ -41,6 +41,7 @@ body{
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+    cursor: pointer;
 }
 /*________________________________________________PHONE_BLOCK___________________________________________________________________*/
 .header__block-phone {
